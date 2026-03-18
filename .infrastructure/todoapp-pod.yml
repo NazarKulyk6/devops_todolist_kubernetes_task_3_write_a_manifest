@@ -8,8 +8,7 @@ metadata:
 spec:
   containers:
     - name: todoapp
-      # Replace with your pushed image, e.g. "yourdockerhub/todoapp:3.0.0"
-      image: yourdockerhub/todoapp:3.0.0
+      image: nazarkulyk6/todoapp:3.0.0
       ports:
         - containerPort: 8080
       readinessProbe:
